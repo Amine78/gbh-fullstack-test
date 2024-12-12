@@ -1,0 +1,456 @@
+[
+  {
+    "id": "1",
+    "manufacturer": "Mercedes",
+    "model": "X5",
+    "year": 2012,
+    "type": "TRUCK",
+    "price": 86779,
+    "fuelType": "DIESEL",
+    "transmission": "Automatic",
+    "mileage": null,
+    "features": [
+      "Navigation",
+      "Heated Seats",
+      "Sunroof",
+      "Backup Camera",
+      "Bluetooth"
+    ],
+    "images": [
+      "https://via.placeholder.com/300x200?text=Vehicle+1"
+    ],
+    "description": "Description of Vehicle 1",
+    "createdAt": "2024-12-11T22:48:00.617450",
+    "updatedAt": "2024-12-11T22:48:00.617464"
+  },
+  {
+    "id": "2",
+    "manufacturer": "Mercedes",
+    "model": "X5",
+    "year": 2019,
+    "type": "LUXURY",
+    "price": 20238,
+    "fuelType": "PLUGIN_HYBRID",
+    "transmission": "Manual",
+    "mileage": null,
+    "features": [
+      "Backup Camera",
+      "Heated Seats",
+      "Sunroof"
+    ],
+    "images": [
+      "https://via.placeholder.com/300x200?text=Vehicle+2"
+    ],
+    "description": "Description of Vehicle 2",
+    "createdAt": "2024-12-11T22:48:00.617492",
+    "updatedAt": "2024-12-11T22:48:00.617495"
+  },
+  {
+    "id": "3",
+    "manufacturer": "Ford",
+    "model": "F-150",
+    "year": 2018,
+    "type": "SUV",
+    "price": 63335,
+    "fuelType": "HYBRID",
+    "transmission": "Manual",
+    "mileage": 3971,
+    "features": [
+      "Sunroof",
+      "Heated Seats",
+      "Navigation"
+    ],
+    "images": [
+      "https://via.placeholder.com/300x200?text=Vehicle+3"
+    ],
+    "description": "Description of Vehicle 3",
+    "createdAt": "2024-12-11T22:48:00.617515",
+    "updatedAt": "2024-12-11T22:48:00.617517"
+  },
+  {
+    "id": "4",
+    "manufacturer": "Tesla",
+    "model": "X5",
+    "year": 2016,
+    "type": "TRUCK",
+    "price": 27766,
+    "fuelType": "PLUGIN_HYBRID",
+    "transmission": "Automatic",
+    "mileage": 59053,
+    "features": [
+      "Navigation",
+      "Backup Camera",
+      "Bluetooth",
+      "Sunroof",
+      "Heated Seats"
+    ],
+    "images": [
+      "https://via.placeholder.com/300x200?text=Vehicle+4"
+    ],
+    "description": "Description of Vehicle 4",
+    "createdAt": "2024-12-11T22:48:00.617551",
+    "updatedAt": "2024-12-11T22:48:00.617553"
+  },
+  {
+    "id": "5",
+    "manufacturer": "Toyota",
+    "model": "F-150",
+    "year": 2006,
+    "type": "TRUCK",
+    "price": 25004,
+    "fuelType": "PLUGIN_HYBRID",
+    "transmission": "Manual",
+    "mileage": null,
+    "features": [
+      "Heated Seats",
+      "Backup Camera",
+      "Navigation",
+      "Bluetooth",
+      "Sunroof"
+    ],
+    "images": [
+      "https://via.placeholder.com/300x200?text=Vehicle+5"
+    ],
+    "description": "Description of Vehicle 5",
+    "createdAt": "2024-12-11T22:48:00.617572",
+    "updatedAt": "2024-12-11T22:48:00.617575"
+  },
+  {
+    "id": "6",
+    "manufacturer": "Ford",
+    "model": "C-Class",
+    "year": 2019,
+    "type": "SPORTS",
+    "price": 63530,
+    "fuelType": "GASOLINE",
+    "transmission": "Automatic",
+    "mileage": 24497,
+    "features": [
+      "Backup Camera",
+      "Bluetooth"
+    ],
+    "images": [
+      "https://via.placeholder.com/300x200?text=Vehicle+6"
+    ],
+    "description": "Description of Vehicle 6",
+    "createdAt": "2024-12-11T22:48:00.617594",
+    "updatedAt": "2024-12-11T22:48:00.617597"
+  },
+  {
+    "id": "7",
+    "manufacturer": "Mercedes",
+    "model": "X5",
+    "year": 2005,
+    "type": "SUV",
+    "price": 72814,
+    "fuelType": "HYBRID",
+    "transmission": "Manual",
+    "mileage": 6778,
+    "features": [
+      "Bluetooth",
+      "Heated Seats",
+      "Backup Camera"
+    ],
+    "images": [
+      "https://via.placeholder.com/300x200?text=Vehicle+7"
+    ],
+    "description": "Description of Vehicle 7",
+    "createdAt": "2024-12-11T22:48:00.617618",
+    "updatedAt": "2024-12-11T22:48:00.617621"
+  },
+  {
+    "id": "8",
+    "manufacturer": "Mercedes",
+    "model": "Camry",
+    "year": 2016,
+    "type": "ELECTRIC",
+    "price": 47416,
+    "fuelType": "ELECTRIC",
+    "transmission": "Automatic",
+    "mileage": null,
+    "features": [
+      "Backup Camera",
+      "Navigation",
+      "Heated Seats",
+      "Bluetooth",
+      "Sunroof"
+    ],
+    "images": [
+      "https://via.placeholder.com/300x200?text=Vehicle+8"
+    ],
+    "description": "Description of Vehicle 8",
+    "createdAt": "2024-12-11T22:48:00.617646",
+    "updatedAt": "2024-12-11T22:48:00.617649"
+  },
+  {
+    "id": "9",
+    "manufacturer": "Mercedes",
+    "model": "Model 3",
+    "year": 2021,
+    "type": "ELECTRIC",
+    "price": 39460,
+    "fuelType": "GASOLINE",
+    "transmission": "Automatic",
+    "mileage": null,
+    "features": [
+      "Bluetooth",
+      "Backup Camera",
+      "Navigation"
+    ],
+    "images": [
+      "https://via.placeholder.com/300x200?text=Vehicle+9"
+    ],
+    "description": "Description of Vehicle 9",
+    "createdAt": "2024-12-11T22:48:00.617671",
+    "updatedAt": "2024-12-11T22:48:00.617673"
+  },
+  {
+    "id": "10",
+    "manufacturer": "Ford",
+    "model": "Camry",
+    "year": 2018,
+    "type": "TRUCK",
+    "price": 74657,
+    "fuelType": "ELECTRIC",
+    "transmission": "Manual",
+    "mileage": 64532,
+    "features": [
+      "Backup Camera",
+      "Sunroof",
+      "Navigation"
+    ],
+    "images": [
+      "https://via.placeholder.com/300x200?text=Vehicle+10"
+    ],
+    "description": "Description of Vehicle 10",
+    "createdAt": "2024-12-11T22:48:00.617686",
+    "updatedAt": "2024-12-11T22:48:00.617688"
+  },
+  {
+    "id": "11",
+    "manufacturer": "Toyota",
+    "model": "X5",
+    "year": 2010,
+    "type": "TRUCK",
+    "price": 93180,
+    "fuelType": "HYBRID",
+    "transmission": "Automatic",
+    "mileage": 120190,
+    "features": [
+      "Backup Camera",
+      "Bluetooth",
+      "Sunroof",
+      "Navigation",
+      "Heated Seats"
+    ],
+    "images": [
+      "https://via.placeholder.com/300x200?text=Vehicle+11"
+    ],
+    "description": "Description of Vehicle 11",
+    "createdAt": "2024-12-11T22:48:00.617700",
+    "updatedAt": "2024-12-11T22:48:00.617702"
+  },
+  {
+    "id": "12",
+    "manufacturer": "Tesla",
+    "model": "Camry",
+    "year": 2022,
+    "type": "SUV",
+    "price": 45983,
+    "fuelType": "PLUGIN_HYBRID",
+    "transmission": "Manual",
+    "mileage": 1508,
+    "features": [
+      "Navigation",
+      "Bluetooth"
+    ],
+    "images": [
+      "https://via.placeholder.com/300x200?text=Vehicle+12"
+    ],
+    "description": "Description of Vehicle 12",
+    "createdAt": "2024-12-11T22:48:00.617713",
+    "updatedAt": "2024-12-11T22:48:00.617714"
+  },
+  {
+    "id": "13",
+    "manufacturer": "Mercedes",
+    "model": "Model 3",
+    "year": 2007,
+    "type": "ELECTRIC",
+    "price": 81151,
+    "fuelType": "PLUGIN_HYBRID",
+    "transmission": "Automatic",
+    "mileage": 110299,
+    "features": [
+      "Sunroof",
+      "Bluetooth",
+      "Backup Camera",
+      "Heated Seats",
+      "Navigation"
+    ],
+    "images": [
+      "https://via.placeholder.com/300x200?text=Vehicle+13"
+    ],
+    "description": "Description of Vehicle 13",
+    "createdAt": "2024-12-11T22:48:00.617738",
+    "updatedAt": "2024-12-11T22:48:00.617742"
+  },
+  {
+    "id": "14",
+    "manufacturer": "Ford",
+    "model": "Model 3",
+    "year": 2007,
+    "type": "SPORTS",
+    "price": 37407,
+    "fuelType": "GASOLINE",
+    "transmission": "Automatic",
+    "mileage": 64987,
+    "features": [
+      "Navigation",
+      "Backup Camera",
+      "Heated Seats",
+      "Sunroof",
+      "Bluetooth"
+    ],
+    "images": [
+      "https://via.placeholder.com/300x200?text=Vehicle+14"
+    ],
+    "description": "Description of Vehicle 14",
+    "createdAt": "2024-12-11T22:48:00.617761",
+    "updatedAt": "2024-12-11T22:48:00.617764"
+  },
+  {
+    "id": "15",
+    "manufacturer": "BMW",
+    "model": "F-150",
+    "year": 2007,
+    "type": "LUXURY",
+    "price": 58070,
+    "fuelType": "ELECTRIC",
+    "transmission": "Automatic",
+    "mileage": null,
+    "features": [
+      "Heated Seats",
+      "Navigation"
+    ],
+    "images": [
+      "https://via.placeholder.com/300x200?text=Vehicle+15"
+    ],
+    "description": "Description of Vehicle 15",
+    "createdAt": "2024-12-11T22:48:00.617779",
+    "updatedAt": "2024-12-11T22:48:00.617782"
+  },
+  {
+    "id": "16",
+    "manufacturer": "Ford",
+    "model": "Model 3",
+    "year": 2011,
+    "type": "LUXURY",
+    "price": 73532,
+    "fuelType": "HYBRID",
+    "transmission": "Automatic",
+    "mileage": 31898,
+    "features": [
+      "Sunroof",
+      "Navigation",
+      "Heated Seats"
+    ],
+    "images": [
+      "https://via.placeholder.com/300x200?text=Vehicle+16"
+    ],
+    "description": "Description of Vehicle 16",
+    "createdAt": "2024-12-11T22:48:00.617801",
+    "updatedAt": "2024-12-11T22:48:00.617805"
+  },
+  {
+    "id": "17",
+    "manufacturer": "Ford",
+    "model": "C-Class",
+    "year": 2014,
+    "type": "SPORTS",
+    "price": 34518,
+    "fuelType": "GASOLINE",
+    "transmission": "Manual",
+    "mileage": 20488,
+    "features": [
+      "Bluetooth",
+      "Navigation",
+      "Backup Camera",
+      "Sunroof"
+    ],
+    "images": [
+      "https://via.placeholder.com/300x200?text=Vehicle+17"
+    ],
+    "description": "Description of Vehicle 17",
+    "createdAt": "2024-12-11T22:48:00.617824",
+    "updatedAt": "2024-12-11T22:48:00.617828"
+  },
+  {
+    "id": "18",
+    "manufacturer": "Mercedes",
+    "model": "F-150",
+    "year": 2014,
+    "type": "TRUCK",
+    "price": 69856,
+    "fuelType": "HYBRID",
+    "transmission": "Automatic",
+    "mileage": 120525,
+    "features": [
+      "Sunroof",
+      "Backup Camera",
+      "Navigation",
+      "Bluetooth",
+      "Heated Seats"
+    ],
+    "images": [
+      "https://via.placeholder.com/300x200?text=Vehicle+18"
+    ],
+    "description": "Description of Vehicle 18",
+    "createdAt": "2024-12-11T22:48:00.617848",
+    "updatedAt": "2024-12-11T22:48:00.617851"
+  },
+  {
+    "id": "19",
+    "manufacturer": "Tesla",
+    "model": "Camry",
+    "year": 2013,
+    "type": "SUV",
+    "price": 21359,
+    "fuelType": "GASOLINE",
+    "transmission": "Manual",
+    "mileage": 4076,
+    "features": [
+      "Heated Seats",
+      "Backup Camera"
+    ],
+    "images": [
+      "https://via.placeholder.com/300x200?text=Vehicle+19"
+    ],
+    "description": "Description of Vehicle 19",
+    "createdAt": "2024-12-11T22:48:00.617871",
+    "updatedAt": "2024-12-11T22:48:00.617874"
+  },
+  {
+    "id": "20",
+    "manufacturer": "Ford",
+    "model": "Camry",
+    "year": 2018,
+    "type": "SPORTS",
+    "price": 71632,
+    "fuelType": "PLUGIN_HYBRID",
+    "transmission": "Automatic",
+    "mileage": 59927,
+    "features": [
+      "Bluetooth",
+      "Backup Camera",
+      "Navigation",
+      "Heated Seats"
+    ],
+    "images": [
+      "https://via.placeholder.com/300x200?text=Vehicle+20"
+    ],
+    "description": "Description of Vehicle 20",
+    "createdAt": "2024-12-11T22:48:00.617892",
+    "updatedAt": "2024-12-11T22:48:00.617895"
+  }
+]
