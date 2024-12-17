@@ -3,6 +3,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import Head from 'next/head';
+import { Metadata } from 'next';
 
 interface Manufacturer {
   name: string;
@@ -11,7 +13,7 @@ interface Manufacturer {
 
 export default function HomePage() {
   const [manufacturers, setManufacturers] = useState<Manufacturer[]>([]);
-
+  
   useEffect(() => {
     // Récupérer les marques depuis l'API
     fetch('http://localhost:3500/vehicles/manufacturers')

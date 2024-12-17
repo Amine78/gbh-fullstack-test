@@ -15,14 +15,26 @@ export class VehiclesService {
   getAllVehicles() {
     return this.vehicles;
   }
+  getAllVehiclesRaw() {
+    return this.vehicles; 
+  }
   //get vehicles by query
-  getFilteredVehicles(vehicleType?: string , fuelType?: string , transmission?: string): any[]{
-    return this.vehicles.filter((vehicle) => {
+  getFilteredVehicles(vehicleType?: string , fuelType?: string , transmission?: string, year?: number , sortBy?: string): any[]{
+    let filteredVehicles = this.vehicles.filter((vehicle) => {
       const matchesType = vehicleType ? vehicle.type === vehicleType : true;
       const matchesFuel = fuelType ? vehicle.fuelType === fuelType : true;
       const matchesTransmission = transmission ? vehicle.transmission === transmission : true;
-  
-      return matchesType && matchesFuel && matchesTransmission ;
+      const matchesYear = year ? vehicle.year === year : true;
+      return matchesType && matchesFuel && matchesTransmission && matchesYear;
     });
+
+    // Tri par année ou prix
+    if (sortBy === 'year') {
+      filteredVehicles.sort((a, b) => a.year - b.year);
+    } else if (sortBy === 'price') {
+      filteredVehicles.sort((a, b) => a.price - b.price);
+    }
+
+    return filteredVehicles;
+    };
   }
-}

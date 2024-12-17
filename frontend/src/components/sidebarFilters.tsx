@@ -5,26 +5,28 @@ interface SidebarProps {
     vehicleType?: string;
     fuelType?: string;
     transmission?: string;
-    mileageRange?: [number, number];
+    year?: string; // Ajout de l'année
   };
   onFilterChange: (filters: {
     vehicleType?: string;
     fuelType?: string;
     transmission?: string;
-    mileageRange?: [number, number];
+    year?: string; // Gestion de lannée
   }) => void;
 }
 
 const vehicleTypes = ['SUV', 'SEDAN', 'TRUCK', 'SPORTS', 'LUXURY', 'ELECTRIC'];
 const fuelTypes = ['GASOLINE', 'DIESEL', 'ELECTRIC', 'HYBRID', 'PLUGIN_HYBRID'];
 const transmissions = ['Automatic', 'Manual'];
+const years = ['2024', '2023', '2022', '2021', '2020', '2019', '2018', '2017'];
 
 export default function Sidebar({ currentFilters, onFilterChange }: SidebarProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleSidebar = () => setIsOpen(!isOpen);
 
-  const handleFilterToggle = (filterKey: keyof typeof currentFilters, value: string) => {
+  // Fonction pour gérer la sélection/désélection des filtres
+  const handleFilterToggle = (filterKey: keyof SidebarProps['currentFilters'], value: string) => {
     onFilterChange({
       ...currentFilters,
       [filterKey]: currentFilters[filterKey] === value ? undefined : value,
@@ -111,8 +113,30 @@ export default function Sidebar({ currentFilters, onFilterChange }: SidebarProps
             ))}
           </ul>
         </div>
+
+        {/* Année */}
+        <div className="mb-6">
+          <h3 className="text-sm font-semibold mb-2">Année</h3>
+          <ul className="space-y-2">
+            {years.map((year) => (
+              <li key={year}>
+                <button
+                  onClick={() => handleFilterToggle('year', year)}
+                  className={`block w-full px-4 py-2 text-sm rounded text-left transition ${
+                    currentFilters.year === year
+                      ? 'text-black bg-red-600 hover:bg-red-300'
+                      : 'bg-gray-200 hover:bg-gray-300'
+                  }`}
+                >
+                  {year}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
 
+      {/* Overlay pour fermer la sidebar en mobile */}
       {isOpen && (
         <div
           onClick={toggleSidebar}
